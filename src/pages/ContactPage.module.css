@@ -1,0 +1,86 @@
+.main {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 64px 24px;
+}
+
+.pageTitle {
+    text-align: left;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 0 70px;
+}
+
+.form {
+    width: 100%;
+}
+
+.formRow {
+    display: grid;
+    grid-template-columns: 160px 1fr;
+    column-gap: 24px;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.label {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.field {
+    width: 100%;
+}
+
+.input,
+.textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #cfd4dc;
+    border-radius: 6px;
+    padding: 12px 14px;
+    font-size: 14px;
+    outline: none;
+    background: #fff;
+}
+
+.textarea {
+    resize: vertical;
+    min-height: 200px;
+}
+
+.error {
+    margin: 8px 0 0;
+    font-size: 12px;
+    color: #d93025;
+}
+
+.formActions {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 32px;
+}
+
+.primaryButton {
+    border: none;
+    background: #111;
+    color: #fff;
+    padding: 12px 22px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.secondaryButton {
+    border: none;
+    background: #e5e7eb;
+    color: #111;
+    padding: 12px 22px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+}

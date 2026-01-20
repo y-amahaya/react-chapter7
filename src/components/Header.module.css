@@ -1,0 +1,15 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #242424;
+    color: #fff;
+    padding: 24px;
+    font-weight: bold;
+}
+
+.link,
+.link:hover {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
