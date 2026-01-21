@@ -1,14 +1,7 @@
 import { useEffect, useState } from "react";
 import styles from '../App.module.css'
 import { Link } from 'react-router-dom';
-
-type Post = {
-  id: number;
-  title: string;
-  content: string;
-  createdAt: string;
-  categories: string[];
-};
+import type { Post } from '../types/Post.ts'
 
 type PostsResponse = {
   posts: Post[];
